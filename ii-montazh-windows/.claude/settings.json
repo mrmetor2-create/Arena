@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(.venv/Scripts/python tools/:*)",
+      "Bash(.venv/bin/python tools/:*)",
+      "Bash(cd remotion && npm run storyboard:*)",
+      "Bash(cd remotion && npm run render:*)",
+      "Bash(ffprobe:*)",
+      "Read(work/**)",
+      "Read(samples/**)",
+      "Edit(work/**)",
+      "Edit(style.json)",
+      "Edit(style.md)"
+    ],
+    "deny": [
+      "Bash(rm -rf:*)",
+      "Edit(input/**)",
+      "Edit(music/**)",
+      "Edit(sfx/**)"
+    ]
+  }
+}

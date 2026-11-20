@@ -1,0 +1,17 @@
+.venv/
+remotion/node_modules/
+remotion/public/current/
+remotion/out/
+work/*
+!work/.gitkeep
+input/*
+!input/.gitkeep
+samples/*
+!samples/.gitkeep
+output/*
+!output/.gitkeep
+music/*
+!music/.gitkeep
+sfx/*
+!sfx/.gitkeep
+__pycache__/
